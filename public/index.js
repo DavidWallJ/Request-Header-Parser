@@ -3,7 +3,7 @@
  */
 $(document).ready(function () {
 
-    var url = "http://localhost:3000/headerParser/api/whoami";
+    var url = "https://header-parser-davidjwall.herokuapp.com/headerParser/api/whoami";
 
     $.ajax({
         type: "GET",

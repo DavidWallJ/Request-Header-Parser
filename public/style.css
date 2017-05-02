@@ -21,7 +21,7 @@ p, p span, .secondaryTitle, hr, .blinking-cursor {
     box-shadow: inset 1px 1px 2px 0 #39FF14, 1px 1px 2px 0 #39FF14;
     float: right;
     width: 100%;
-    min-height: 150px;
+    min-height: 195px;
     margin-bottom: 14px;
     padding: 35px 0;
 }
@@ -101,13 +101,13 @@ input, #submitDateButton, .quoteContainer {
 
 /*loader*/
 .loader {
-    border: 6px solid #a8ffac; /* Light grey */
-    border-top: 6px solid #39FF14; /* Blue */
+    border: 6px solid #39FF14;
+    border-top: 6px solid #2b9c2f;
     border-radius: 50%;
     width: 60px;
     height: 60px;
     animation: spin 2s linear infinite;
-    margin-top: 9px;
+    margin-top: 29px;
     visibility: hidden;
 }
 
